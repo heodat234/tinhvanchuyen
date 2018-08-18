@@ -10,7 +10,7 @@
     $("body").append("<div id='background'></div>");
  
     var $this=$(this);
-    $this.prepend('<div class="content"><iframe id="frameship" src="https://hungminhits.com/"></iframe></div>');
+    $this.prepend('<div class="content"><iframe id="frameship" src="https://hungminhits.com/tinhship/"></iframe></div>');
     $this.prepend("<div class='popuptitle'>"+options.title+"<a href='#' class='close'>x</a></div>");
 
  
