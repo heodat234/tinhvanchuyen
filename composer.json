@@ -1,0 +1,15 @@
+{
+    "name": "heodat234/tinhvanchuyen",
+    "type": "library",
+    "description": "jquery plugin ship",
+    "keywords": ["ship","jquery plugin ship"],
+    "homepage": "https://github.com/heodat234/tinhvanchuyen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Le Thanh Hung",
+            "email": "thanhhung23495@gmail.com",
+            "role": "Developer"
+        }
+    ]
+}
