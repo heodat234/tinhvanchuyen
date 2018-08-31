@@ -1,8 +1,8 @@
 # Ship Plugin
-Jquery plugin preview image before upload
+Jquery plugin fee ship
 # Installation:
 - Install via composer: composer require heodat234/tinhvanchuyen
-- Add link to jpreview javascript and css file
+- Add link to phiship javascript and css file
 
 ```
 <link rel="stylesheet" type="text/css" href="path/to/phiship.css"/>
