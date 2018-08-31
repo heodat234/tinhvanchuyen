@@ -1,9 +1,9 @@
 (function($){
  $.fn.popup = function(options) {
     var defaults = {
-        width: "700px",
+        width: "720px",
         height: "400px",
-        title: "SHIP"
+        title: "Tính phí vận chuyển"
     };
     var options = $.extend(defaults, options);
  
