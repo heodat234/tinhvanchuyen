@@ -1,7 +1,7 @@
-# jPreview Plugin
+# Ship Plugin
 Jquery plugin preview image before upload
 # Installation:
-- Install via composer: composer require buivannguyen/jpreview
+- Install via composer: composer require heodat234/tinhvanchuyen
 - Add link to jpreview javascript and css file
 
 ```
