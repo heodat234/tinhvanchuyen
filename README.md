@@ -5,22 +5,30 @@ Jquery plugin preview image before upload
 - Add link to jpreview javascript and css file
 
 ```
-<link rel="stylesheet" type="text/css" href="jpreview.css">
+<link rel="stylesheet" type="text/css" href="path/to/phiship.css"/>
 <script src="path/to/jquery.min.js"></script>
-<script type="text/javascript" src="path/to/jpreview.js"></script>
+<script type="text/javascript" src="path/to/phiship.jquery.js"></script>
   ```
   
 # Usage:
 
 ```
 $(document).ready(function(){
-    $('.selector').jPreview();
+    jQuery("#popup1").popup();
+    // $("#popup1").popup({title:"Abc"});
+    // $("#popup1").popup({title:"Phí vận chuyển", width:"900px",height:"500px"});
+
+    $("button").click(function(e) {
+        var popupid=this.getAttribute("popup");
+        $("#"+popupid).openPopup();
+    });
+    
 });
 ```
 
 And HTML markup:
 
 ```
-<input type="file" name="test1" class="demo" data-jpreview-container="#demo-1-container">
-<div id="demo-1-container" class="jpreview-container"></div>
+<button popup="popup1">Open Popup1</button>
+<div id="popup1"></div>
 ```
